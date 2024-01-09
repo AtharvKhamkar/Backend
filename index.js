@@ -19,6 +19,10 @@ app.get("/youtube", (req, res) => {
     res.send("<h2>Chai aur Code</h2>")
 })
 
+app.get("/facebook", (req, res) => {
+    res.send("<h2>Logged in facebook</h2>")
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${port}`)
 })
